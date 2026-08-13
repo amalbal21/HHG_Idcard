@@ -384,8 +384,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const city = selCity.value || 'Trichy';
     const iata = (selIata.value || 'TRZ').toUpperCase();
     const roleKey = selRole.value || Object.keys(rolesData)[0] || 'Frontend';
-    const titles = rolesData[roleKey] || [];
-    const roleJoke = ('#' + (titles[0] || 'CODE SCULPTOR')).toUpperCase();
+    const titles = rolesData[roleKey] || ['CODE SCULPTOR'];
+    const randomTitle = titles[Math.floor(Math.random() * titles.length)];
+    const roleJoke = ('#' + randomTitle).toUpperCase();
     const mode = document.querySelector('input[name="mode"]:checked');
     const soloTeam = (mode?.value === 'Solo') ? 'SOLO BUILDER' : 'SQUAD GOALS';
     const jokes = jokesData.two_liners || [];
@@ -484,7 +485,7 @@ document.addEventListener('DOMContentLoaded', () => {
   shareBtn.addEventListener('click', async () => {
     setStatus('PREPARING…');
     const tweetText = `247 seats. 4 days on the Arabian Sea. I have already generated my boarding pass! Hacker House Goa 2026, 28–31 Oct`;
-    const shareUrl = `https://hhgoa.com/#studio`;
+    const shareUrl = `https://hhg-idcard.vercel.app/`;
     const hashtags = `#FrameInGoa #HHGoa26 via @247pmstudio`;
 
     try {
