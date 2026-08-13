@@ -11,6 +11,28 @@ document.addEventListener('DOMContentLoaded', () => {
   let zoomVal = 1, panX = 0, panY = 0;
   let isDragging = false, startX = 0, startY = 0;
   let liveTimer = null;
+  let currentJoke = null;
+  let currentRoleTitleMap = {};
+
+  function pickRandomJoke() {
+    const allJokes = [
+      ...(jokesData.two_liners || []),
+      ...(jokesData.one_liners || []).map(line => ({ top: line, bottom: '' }))
+    ];
+    if (allJokes.length > 0) {
+      currentJoke = allJokes[Math.floor(Math.random() * allJokes.length)];
+    }
+  }
+
+  function getRoleTitle(roleKey) {
+    if (currentRoleTitleMap[roleKey]) {
+      return currentRoleTitleMap[roleKey];
+    }
+    const titles = rolesData[roleKey] || ['CODE SCULPTOR'];
+    const picked = titles[Math.floor(Math.random() * titles.length)];
+    currentRoleTitleMap[roleKey] = picked;
+    return picked;
+  }
 
   /* ── SCROLL REVEAL ── */
   const revealObserver = new IntersectionObserver((entries) => {
@@ -81,6 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
       jokesData = jokes;
       ticketSvgTemplate = svg;
 
+      pickRandomJoke();
+
       buildList(airportList, airports.map(a => ({
         label: a.city,
         badge: a.iata,
@@ -99,6 +123,9 @@ document.addEventListener('DOMContentLoaded', () => {
         onSelect: () => {
           selRole.value = k;
           roleSelTxt.textContent = k;
+          // Re-pick title for newly selected role
+          const titles = roles[k] || ['CODE SCULPTOR'];
+          currentRoleTitleMap[k] = titles[Math.floor(Math.random() * titles.length)];
           closeAll();
           trigger();
         }
@@ -360,24 +387,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function setStatus(s) { if (renderStatus) renderStatus.textContent = s; }
 
-  function trigger() {
-    clearTimeout(liveTimer);
-    setStatus('RENDERING…');
-    liveTimer = setTimeout(async () => {
-      try {
-        const { svg } = await buildSvg();
-        const png = await svgToPng(svg, 1080, 1920);
-        livePreview.src = png;
-        previewEmpty?.classList.add('hidden');
-        livePreview.classList.remove('hidden');
-        setStatus('READY');
-      } catch (e) {
-        console.error('[Studio] Render error:', e);
-        setStatus('ERR');
-      }
-    }, 90);
-  }
-
   async function buildSvg() {
     let name = nameInput.value.trim().toUpperCase() || 'ANONYMOUS DEV';
     name = name.slice(0, 20);
@@ -385,18 +394,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const city = selCity.value || 'Trichy';
     const iata = (selIata.value || 'TRZ').toUpperCase();
     const roleKey = selRole.value || Object.keys(rolesData)[0] || 'Frontend';
-    const titles = rolesData[roleKey] || ['CODE SCULPTOR'];
-    const randomTitle = titles[Math.floor(Math.random() * titles.length)];
-    const roleJoke = ('#' + randomTitle).toUpperCase();
+    const title = getRoleTitle(roleKey);
+    const roleJoke = ('#' + title).toUpperCase();
     const mode = document.querySelector('input[name="mode"]:checked');
     const soloTeam = (mode?.value === 'Solo') ? 'SOLO BUILDER' : 'SQUAD GOALS';
-    const allJokes = [
-      ...(jokesData.two_liners || []),
-      ...(jokesData.one_liners || []).map(line => ({ top: line, bottom: '' }))
-    ];
-    const joke = allJokes.length ? allJokes[Math.floor(Math.random() * allJokes.length)] : null;
-    const jokeTop = joke?.top ?? '// ready for hacker house goa';
-    const jokeBottom = joke?.bottom ?? '';
+    if (!currentJoke) pickRandomJoke();
+    const jokeTop = currentJoke?.top ?? '// ready for hacker house goa';
+    const jokeBottom = currentJoke?.bottom ?? '';
     const photoB64 = getPhotoBase64(name);
 
     if (!ticketSvgTemplate) ticketSvgTemplate = await fetch('ticket.svg').then(r => r.text());
@@ -414,6 +418,24 @@ document.addEventListener('DOMContentLoaded', () => {
     svg = svg.replace(/\{\{JOKE_BOTTOM\}\}/g, xe(jokeBottom));
 
     return { svg, name };
+  }
+
+  function trigger() {
+    clearTimeout(liveTimer);
+    setStatus('RENDERING…');
+    liveTimer = setTimeout(async () => {
+      try {
+        const { svg } = await buildSvg();
+        const png = await svgToPng(svg, 1080, 1920);
+        livePreview.src = png;
+        previewEmpty?.classList.add('hidden');
+        livePreview.classList.remove('hidden');
+        setStatus('READY');
+      } catch (e) {
+        console.error('[Studio] Render error:', e);
+        setStatus('ERR');
+      }
+    }, 90);
   }
 
   function svgToPng(svgStr, w=1080, h=1920) {
@@ -516,8 +538,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 👉 Want to see what your hacker passenger profile looks like?
 https://hhg-idcard.vercel.app/
-Drop your stack/role below or spin up the generator, and reply with your ticket using #FrameInGoa! Let's see what tags you're running. 💻🔥
-#FrameInGoa #Goa #Hackathon #Hacker #Hackerhouse`;
+Drop your stack/role below or spin up the generator, and reply with your ticket using #FrameInGoa! 
+#Goa #Hackathon`;
 
     try {
       const { svg, name } = await buildSvg();
