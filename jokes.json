@@ -1,0 +1,53 @@
+{
+  "one_liners": [
+    "I would tell you a UDP joke, but you might not get it.",
+    "[\"hip\",\"hip\"] (hip hip array!)",
+    "return 1; # returns 1"
+  ],
+  "two_liners": [
+    {
+      "top": "# To understand recursion, see the bottom of this ID.",
+      "bottom": "# To understand recursion, see the top of this ID."
+    },
+    {
+      "top": "//be nice to the CPU",
+      "bottom": "Thread_sleep(1);"
+    },
+    {
+      "top": "} catch (PartInitException pie) {",
+      "bottom": "// Mmm... pie"
+    },
+    {
+      "top": "// When I wrote this, only God and I understood what I was doing.",
+      "bottom": "// Now, only God knows."
+    },
+    {
+      "top": "What’s a better name for Frontend Developers?",
+      "bottom": "<div>elopers"
+    },
+    {
+      "top": "You know what screams “I’m insecure”?",
+      "bottom": "http://"
+    },
+    {
+      "top": "Why are i and j good sources of information?",
+      "bottom": "Because they’re always in the loop"
+    },
+    {
+      "top": "Why do Java developers wear sun glasses?",
+      "bottom": "Because they stare straight into the Eclipse!"
+    },
+    {
+      "top": "Why are Linux geeks so introverted?",
+      "bottom": "Because they never leave their shell."
+    },
+    {
+      "top": "How do you comfort a JavaScript bug?",
+      "bottom": "You console it."
+    },
+    {
+      "top": "There are 10 types of people in the world:",
+      "bottom": "Those who understand binary, and those who don't."
+    }
+  ]
+}

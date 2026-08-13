@@ -1,0 +1,41 @@
+{
+  "Frontend": [
+    "The Pixel Pusher",
+    "Div Centering Expert",
+    "Console.log() Detective"
+  ],
+  "Backend": [
+    "The Server Whisperer",
+    "API Plumber",
+    "Database Janitor"
+  ],
+  "Full Stack": [
+    "The Jack of All Trades",
+    "Master of None",
+    "Tired All The Time"
+  ],
+  "AI / ML": [
+    "The Black Box Shaker",
+    "Excel Wizard in Denial",
+    "Random Seed Setter",
+    "GPU Heater"
+  ],
+  "DevOps / Infra": [
+    "The Plumber",
+    "YAML Indentation Specialist",
+    "Works on my machine"
+  ],
+  "UI/UX Designer": [
+    "The Shape Arranger",
+    "Figma Frame Hoarder"
+  ],
+  "Idea Creator / PM": [
+    "The Pitch Deck Picasso",
+    "The 'It's Just a CRUD App' Guy",
+    "Professional Visionary"
+  ],
+  "Web3 / Crypto": [
+    "Smart Contract Gambler",
+    "Tokenomics Theorist"
+  ]
+}

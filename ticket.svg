@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920" fill="none">
+  <style>
+    text {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+  <rect width="1080" height="1920" fill="#1E1E1E"/>
+  <g clip-path="url(#clip0_0_1)">
+    <path d="M1080 0H0V1920H1080V0Z" fill="#0B4A2F"/>
+    <g opacity="0.6">
+      <path d="M540 1629C661.503 1629 760 1530.5 760 1409C760 1287.5 661.503 1189 540 1189C418.497 1189 320 1287.5 320 1409C320 1530.5 418.497 1629 540 1629Z" fill="#FFE500"/>
+      <path d="M540 1149V1099" stroke="#FFE500" stroke-width="8" stroke-linecap="round"/>
+      <path d="M330 1209L290 1179" stroke="#FFE500" stroke-width="8" stroke-linecap="round"/>
+      <path d="M750 1209L790 1179" stroke="#FFE500" stroke-width="8" stroke-linecap="round"/>
+      <path d="M200 1339H150" stroke="#FFE500" stroke-width="8" stroke-linecap="round"/>
+      <path d="M880 1339H930" stroke="#FFE500" stroke-width="8" stroke-linecap="round"/>
+      <path d="M1500 1409H-420V1759H1500V1409Z" fill="#1A8450"/>
+      <path d="M-420 1559C-100 1539 220 1539 540 1559C860 1579 1180 1579 1500 1559V1759H-420V1559Z" fill="#209E61"/>
+      <path d="M635 1429H445C442.239 1429 440 1431.24 440 1434C440 1436.76 442.239 1439 445 1439H635C637.761 1439 640 1436.76 640 1434C640 1431.24 637.761 1429 635 1429Z" fill="#FFE500"/>
+      <path d="M595 1459H485C482.239 1459 480 1461.24 480 1464C480 1466.76 482.239 1469 485 1469H595C597.761 1469 600 1466.76 600 1464C600 1461.24 597.761 1459 595 1459Z" fill="#FFE500"/>
+      <path d="M665 1489H415C412.239 1489 410 1491.24 410 1494C410 1496.76 412.239 1499 415 1499H665C667.761 1499 670 1496.76 670 1494C670 1491.24 667.761 1489 665 1489Z" fill="#FFE500"/>
+      <path d="M615 1519H465C462.239 1519 460 1521.24 460 1524C460 1526.76 462.239 1529 465 1529H615C617.761 1529 620 1526.76 620 1524C620 1521.24 617.761 1519 615 1519Z" fill="#FFE500"/>
+      <path d="M575 1549H505C502.239 1549 500 1551.24 500 1554C500 1556.76 502.239 1559 505 1559H575C577.761 1559 580 1556.76 580 1554C580 1551.24 577.761 1549 575 1549Z" fill="#FFE500"/>
+      <path d="M-420 1709C-86.6667 1642.33 233.333 1632.33 540 1679C846.667 1725.67 1166.67 1702.33 1500 1609V2139H-420V1709Z" fill="#F4F8F6"/>
+      <path opacity="0.1" d="M132 1707.61C148.569 1707.61 162 1703.13 162 1697.61C162 1692.09 148.569 1687.61 132 1687.61C115.431 1687.61 102 1692.09 102 1697.61C102 1703.13 115.431 1707.61 132 1707.61Z" fill="#04321A"/>
+      <path d="M127.206 1687.05C135.742 1684.77 135.709 1656.96 127.132 1624.96C118.556 1592.95 104.684 1568.85 96.1482 1571.14C87.6127 1573.43 87.646 1601.23 96.2225 1633.24C104.799 1665.25 118.671 1689.34 127.206 1687.05Z" fill="white" stroke="#04321A" stroke-width="6"/>
+      <path d="M113.438 1716.92C122.14 1718.46 133.86 1693.25 139.614 1660.61C145.368 1627.98 142.978 1600.28 134.276 1598.75C125.574 1597.21 113.854 1622.42 108.1 1655.06C102.346 1687.69 104.736 1715.39 113.438 1716.92Z" fill="#FFE500" stroke="#04321A" stroke-width="6"/>
+      <path d="M72 1692.61C102 1682.61 132 1684.28 162 1697.61" stroke="#F9F9F9" stroke-width="15"/>
+      <path d="M-6 1740C15.3333 1601.33 47.3333 1478.67 90 1372" stroke="#04321A" stroke-width="25.6" stroke-linecap="round"/>
+      <path d="M90 1372C4.66667 1361.33 -59.3333 1388 -102 1452L90 1372Z" fill="#0B4A2F" stroke="white" stroke-width="3.2"/>
+      <path d="M90.0001 1372C36.6668 1297.33 47.3334 1249.33 122 1228L90.0001 1372Z" fill="#1C754A" stroke="white" stroke-width="3.2"/>
+      <path d="M90 1372C164.667 1350.67 218 1382.67 250 1468L90 1372Z" fill="#0B4A2F" stroke="white" stroke-width="3.2"/>
+      <path d="M90 1372C175.333 1446.67 191.333 1521.33 138 1596L90 1372Z" fill="#1C754A" stroke="white" stroke-width="3.2"/>
+      <path d="M90 1372C26 1446.67 -16.6667 1526.67 -38 1612L90 1372Z" fill="#1C754A" stroke="white" stroke-width="3.2"/>
+      <path opacity="0.1" d="M335 1741C423.366 1741 495 1729.81 495 1716C495 1702.19 423.366 1691 335 1691C246.634 1691 175 1702.19 175 1716C175 1729.81 246.634 1741 335 1741Z" fill="#04321A"/>
+      <path d="M415 1586H195V1716H415V1586Z" fill="white" stroke="#04321A" stroke-width="8"/>
+      <path d="M315 1616H215V1666H315V1616Z" fill="#F9F9F9" stroke="#04321A" stroke-width="6"/>
+      <path d="M315 1616H215V1646H315V1616Z" fill="#0B4A2F"/>
+      <path d="M265 1646C261.022 1646 257.206 1647.58 254.393 1650.39C251.58 1653.21 250 1657.02 250 1661H280C280 1657.02 278.42 1653.21 275.607 1650.39C272.794 1647.58 268.978 1646 265 1646Z" fill="white"/>
+      <path d="M265 1642C269.418 1642 273 1638.42 273 1634C273 1629.58 269.418 1626 265 1626C260.582 1626 257 1629.58 257 1634C257 1638.42 260.582 1642 265 1642Z" fill="white"/>
+      <path d="M235 1666V1696" stroke="#04321A" stroke-width="4"/>
+      <path d="M265 1666V1696" stroke="#04321A" stroke-width="4"/>
+      <path d="M295 1666V1696" stroke="#04321A" stroke-width="4"/>
+      <path d="M225 1666H245" stroke="#04321A" stroke-width="6" stroke-linecap="round"/>
+      <path d="M255 1666H275" stroke="#04321A" stroke-width="6" stroke-linecap="round"/>
+      <path d="M285 1666H305" stroke="#04321A" stroke-width="6" stroke-linecap="round"/>
+      <path d="M395 1606H335V1716H395V1606Z" fill="#1C754A" stroke="#04321A" stroke-width="6"/>
+      <path d="M175 1586L305 1516L455 1586H175Z" fill="#1C754A" stroke="#04321A" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M376 1531H224C221.791 1531 220 1532.79 220 1535V1572C220 1574.21 221.791 1576 224 1576H376C378.209 1576 380 1574.21 380 1572V1535C380 1532.79 378.209 1531 376 1531Z" fill="#FF1088" stroke="white" stroke-width="4"/>
+      <text fill="white" font-family="Inter" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="228.398" y="1562.23">GOA BEACH</tspan></text>
+      <path opacity="0.15" d="M890 1854C912.091 1854 930 1849.52 930 1844C930 1838.48 912.091 1834 890 1834C867.909 1834 850 1838.48 850 1844C850 1849.52 867.909 1854 890 1854Z" fill="#04321A"/>
+      <path d="M910 1704V1844" stroke="#04321A" stroke-width="8" stroke-linecap="round"/>
+      <path d="M830 1704C883.333 1664 936.667 1664 990 1704H830Z" fill="#FFE500" stroke="#04321A" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M880 1704C900 1664 920 1664 940 1704H880Z" fill="white" stroke="#04321A" stroke-width="6"/>
+      <path d="M820 1834L860 1814L900 1844" stroke="#1C754A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M860 1814V1844" stroke="#04321A" stroke-width="6" stroke-linecap="round"/>
+      <path d="M910 1844L950 1824L990 1854" stroke="#1C754A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M950 1824V1854" stroke="#04321A" stroke-width="6" stroke-linecap="round"/>
+      <path d="M1084 1958C1074.67 1808.67 1042 1687.33 986 1594" stroke="#04321A" stroke-width="22.4" stroke-linecap="round"/>
+      <path d="M986 1594C1060.67 1584.67 1121.33 1608 1168 1664L986 1594Z" fill="#0B4A2F" stroke="white" stroke-width="2.8"/>
+      <path d="M986 1594C1042 1528.67 1107.33 1486.67 1182 1468L986 1594Z" fill="#1C754A" stroke="white" stroke-width="2.8"/>
+      <path d="M986 1594C930 1556.67 888 1570.67 860 1636L986 1594Z" fill="#0B4A2F" stroke="white" stroke-width="2.8"/>
+      <path d="M986 1594C911.333 1640.67 902 1692 958 1748L986 1594Z" fill="#1C754A" stroke="white" stroke-width="2.8"/>
+      <path d="M986 1594C1042 1622 1084 1668.67 1112 1734L986 1594Z" fill="#1C754A" stroke="white" stroke-width="2.8"/>
+    </g>
+    <g opacity="0.4">
+      <text transform="translate(201.205 -1.1797) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(128 272.025) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(401.205 345.23) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(328 618.436) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(601.205 691.641) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(528 964.846) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(801.205 1038.05) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(728 1311.26) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(1001.21 1384.46) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(928 1657.67) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+    </g>
+    <g opacity="0.4">
+      <text transform="translate(-1320.47 417.564) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(-1120.47 763.975) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(-1193.68 1037.18) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(-920.474 1110.38) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(-993.679 1383.59) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(-720.474 1456.79) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(-793.679 1730) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(-520.474 1803.21) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(-593.679 2076.41) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(-320.474 2149.62) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+      <text transform="translate(-393.679 2422.82) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#break #fixit #code #chill #break #fixit #code #chill #break #fixit #code #chill</tspan></text>
+      <text transform="translate(-120.474 2496.03) rotate(-30)" fill="#1C754A" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">#code #chill #break #fixit #code #chill #break #fixit #code #chill #break #fixit</tspan></text>
+    </g>
+    <text fill="#FFE500" font-family="Inter" font-size="28" font-weight="bold" letter-spacing="0em" text-anchor="middle"><tspan x="540" y="82.1818">{{JOKE_TOP}}</tspan></text>
+    <path d="M1010 110H70C53.4315 110 40 123.431 40 140V1760C40 1776.57 53.4315 1790 70 1790H1010C1026.57 1790 1040 1776.57 1040 1760V140C1040 123.431 1026.57 110 1010 110Z" stroke="#FFE500" stroke-width="8" stroke-dasharray="30 20"/>
+    <text fill="#FFE500" font-family="Inter" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="234.136">HACKER HOUSE</tspan></text>
+    <text transform="translate(41 1839.59) rotate(-15)" fill="#FFE500" stroke="#FF1088" stroke-width="2" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="0" y="38.5455">&#x917;&#x94b;&#x935;&#x93e;</tspan></text>
+    <text fill="#FFE500" font-family="Inter" font-size="180" font-weight="bold" letter-spacing="0em"><tspan x="124" y="399.455">2026</tspan></text>
+    <path d="M40 450H1040" stroke="#FFE500" stroke-width="6" stroke-dasharray="15 15"/>
+    <text fill="#FFE500" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="559" y="798.909">PASSENGER NAME</tspan></text>
+    <text fill="white" font-family="Inter" font-size="55" font-weight="bold" letter-spacing="0em"><tspan x="559" y="858.5">{{NAME}}</tspan></text>
+    <text fill="#FFE500" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="559" y="958.909">ROLE / STACK</tspan></text>
+    <text fill="white" font-family="Inter" font-size="45" font-weight="bold" letter-spacing="0em"><tspan x="559" y="1018.36">{{ROLE_TITLE}}</tspan></text>
+    <text fill="#FFE500" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="559" y="1118.91">SOLO / TEAM</tspan></text>
+    <text fill="white" font-family="Inter" font-size="45" font-weight="bold" letter-spacing="0em"><tspan x="559" y="1178.36">{{SOLO_TEAM}}</tspan></text>
+    <path d="M41 1321H1041" stroke="#FFE500" stroke-width="6" stroke-dasharray="15 15"/>
+    <path d="M795 1587H285C260.147 1587 240 1607.15 240 1632C240 1656.85 260.147 1677 285 1677H795C819.853 1677 840 1656.85 840 1632C840 1607.15 819.853 1587 795 1587Z" fill="#FF1088"/>
+    <text fill="white" font-family="Inter" font-size="45" font-weight="bold" letter-spacing="0em" text-anchor="middle"><tspan x="540" y="1645.36">&#x2726; #FRAMEINGOA &#x2726;</tspan></text>
+    <path d="M1044 1708H36V1794H1044V1708Z" fill="#FFE500"/>
+    <text fill="#0B4A2F" font-family="Inter" font-size="40" font-weight="bold" letter-spacing="0em" text-anchor="middle"><tspan x="540" y="1763.55">VALID FOR ENTRY: 28-31 OCT</tspan></text>
+    <text fill="#FFE500" font-family="Inter" font-size="28" font-weight="bold" letter-spacing="0em" text-anchor="middle"><tspan x="540" y="1835">{{JOKE_BOTTOM}}</tspan></text>
+    <text fill="#F9F9F9" font-family="Inter" font-size="28" font-weight="bold" letter-spacing="0em" text-anchor="middle"><tspan x="540" y="1881.18">2:47 PM STUDIO</tspan></text>
+    <text fill="#FFE500" stroke="#FF1088" stroke-width="10" font-family="Inter" font-size="150" font-weight="bold" letter-spacing="0em"><tspan x="643" y="398.545">&#x917;&#x94b;&#x935;&#x93e;</tspan></text>
+    <text fill="#FFE500" font-family="Inter" font-size="35" font-weight="bold" letter-spacing="0em"><tspan x="102" y="521.727">FROM:</tspan></text>
+    <text fill="white" font-family="Inter" font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="102" y="648.409">{{IATA}}</tspan></text>
+    <text fill="#00FFA3" font-family="Inter" font-size="45" font-weight="bold" letter-spacing="0em"><tspan x="107" y="711.364">{{CITY}}</tspan></text>
+    <text fill="#FFE500" font-family="Inter" font-size="35" font-weight="bold" letter-spacing="0em"><tspan x="705" y="521.727">TO:</tspan></text>
+    <text fill="white" font-family="Inter" font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="705" y="648.409">GOI</tspan></text>
+    <text fill="#00FFA3" font-family="Inter" font-size="45" font-weight="bold" letter-spacing="0em"><tspan x="710" y="711.364">GOA, INDIA</tspan></text>
+
+    <!-- Flight Path Line (Drawn FIRST) -->
+    <path d="M650.879 602H413.121C410.702 602 408.382 602.632 406.672 603.757C404.961 604.883 404 606.409 404 608C404 609.591 404.961 611.117 406.672 612.243C408.382 613.368 410.702 614 413.121 614H650.879C653.298 614 655.618 613.368 657.328 612.243C659.039 611.117 660 609.591 660 608C660 606.409 659.039 604.883 657.328 603.757C655.618 602.632 653.298 602 650.879 602Z" fill="#F4F8F6"/>
+    <!-- Airplane Icon (Drawn AFTER line so plane tail is 100% full & uncut) -->
+    <path d="M590.56 494.141L567.885 503.193L511.559 488.235C509.815 487.79 507.97 487.981 506.351 488.775C504.733 489.568 503.446 490.912 502.718 492.569L501.861 494.487C501.599 495.096 501.46 495.751 501.451 496.415C501.442 497.078 501.563 497.737 501.807 498.354C502.051 498.97 502.414 499.532 502.875 500.007C503.335 500.482 503.884 500.861 504.49 501.122L537.493 515.39L497.611 531.442C495.075 532.462 492.272 532.604 489.647 531.845L464.399 525.056C463.47 524.81 462.484 524.927 461.636 525.382L454.014 529.429C453.382 529.769 452.858 530.282 452.502 530.908C452.146 531.535 451.973 532.25 452.003 532.971C452.033 533.692 452.265 534.39 452.671 534.985C453.077 535.579 453.642 536.047 454.3 536.333L481.224 547.974C483.627 549.018 486.211 549.572 488.827 549.605C491.444 549.638 494.041 549.149 496.468 548.165L543.343 529.429L529.052 562.913C528.79 563.522 528.651 564.178 528.642 564.841C528.633 565.505 528.754 566.164 528.998 566.78C529.242 567.397 529.605 567.958 530.065 568.434C530.526 568.909 531.075 569.288 531.681 569.549L533.587 570.412C535.249 571.107 537.102 571.189 538.818 570.641C540.534 570.094 542.002 568.952 542.962 567.42L573.716 517.193L596.314 508.122C597.343 507.69 598.265 507.036 599.016 506.206C599.766 505.376 600.326 504.39 600.657 503.318C600.988 502.247 601.081 501.115 600.93 500.003C600.779 498.892 600.387 497.827 599.782 496.884C598.792 495.43 597.335 494.363 595.655 493.864C593.976 493.365 592.176 493.462 590.56 494.141Z" fill="#F4F8F6"/>
+
+    <rect x="188" y="1360" width="696" height="199" fill="white"/>
+    <path d="M264.025 1382H250V1532.2H264.025V1382Z" fill="#0B4A2F"/>
+    <path d="M278.05 1382H271.038V1532.2H278.05V1382Z" fill="#0B4A2F"/>
+    <path d="M306.1 1382H285.062V1532.2H306.1V1382Z" fill="#0B4A2F"/>
+    <path d="M320.125 1382H313.113V1532.2H320.125V1382Z" fill="#0B4A2F"/>
+    <path d="M341.162 1382H327.137V1532.2H341.162V1382Z" fill="#0B4A2F"/>
+    <path d="M376.225 1382H348.175V1532.2H376.225V1382Z" fill="#0B4A2F"/>
+    <path d="M390.25 1382H383.238V1532.2H390.25V1382Z" fill="#0B4A2F"/>
+    <path d="M418.3 1382H397.263V1532.2H418.3V1382Z" fill="#0B4A2F"/>
+    <path d="M439.338 1382H425.312V1532.2H439.338V1382Z" fill="#0B4A2F"/>
+    <path d="M453.363 1382H446.35V1532.2H453.363V1382Z" fill="#0B4A2F"/>
+    <path d="M495.438 1382H460.375V1532.2H495.438V1382Z" fill="#0B4A2F"/>
+    <path d="M509.463 1382H502.45V1532.2H509.463V1382Z" fill="#0B4A2F"/>
+    <path d="M530.5 1382H516.475V1532.2H530.5V1382Z" fill="#0B4A2F"/>
+    <path d="M558.55 1382H537.512V1532.2H558.55V1382Z" fill="#0B4A2F"/>
+    <path d="M572.575 1382H565.562V1532.2H572.575V1382Z" fill="#0B4A2F"/>
+    <path d="M593.612 1382H579.587V1532.2H593.612V1382Z" fill="#0B4A2F"/>
+    <path d="M635.688 1382H600.625V1532.2H635.688V1382Z" fill="#0B4A2F"/>
+    <path d="M656.725 1382H642.7V1532.2H656.725V1382Z" fill="#0B4A2F"/>
+    <path d="M670.75 1382H663.738V1532.2H670.75V1382Z" fill="#0B4A2F"/>
+    <path d="M698.8 1382H677.762V1532.2H698.8V1382Z" fill="#0B4A2F"/>
+    <path d="M719.838 1382H705.813V1532.2H719.838V1382Z" fill="#0B4A2F"/>
+    <path d="M754.9 1382H726.85V1532.2H754.9V1382Z" fill="#0B4A2F"/>
+    <path d="M768.925 1382H761.913V1532.2H768.925V1382Z" fill="#0B4A2F"/>
+    <path d="M796.975 1382H775.938V1532.2H796.975V1382Z" fill="#0B4A2F"/>
+    <path d="M811 1382H803.988V1532.2H811V1382Z" fill="#0B4A2F"/>
+    
+    <!-- Passenger Photo Image Tag -->
+    <image id="PHOTO_BASE64" href="{{PHOTO_BASE64}}" x="98" y="770" width="420" height="424" preserveAspectRatio="xMidYMid slice"/>
+    <!-- Crisp White Border Frame for Passenger Photo -->
+    <rect x="98" y="770" width="420" height="424" fill="none" stroke="white" stroke-width="12" rx="4"/>
+
+    <text fill="white" font-family="Inter" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="930" y="1893.27">@amalbal21</tspan></text>
+    <text fill="white" font-family="Inter" font-size="45" font-weight="900" letter-spacing="0em" text-anchor="middle"><tspan x="540" y="1277.36">{{ROLES_JOKE}}</tspan></text>
+  </g>
+  <defs>
+    <clipPath id="clip0_0_1">
+      <rect width="1080" height="1920" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>

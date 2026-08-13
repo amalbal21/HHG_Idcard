@@ -1,0 +1,16 @@
+{
+  "name": "hacker-house-goa-2026",
+  "version": "1.0.0",
+  "description": "Mobile-first single page boarding pass generator for Hacker House Goa 2026",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 8080 -c-1",
+    "start": "npx http-server . -p 8080 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvg": "^4.0.3"
+  }
+}
