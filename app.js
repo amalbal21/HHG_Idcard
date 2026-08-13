@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const renderStatus  = document.getElementById('render-status');
   const renderCanvas  = document.getElementById('render-canvas');
   const downloadBtn   = document.getElementById('download-btn');
+  const copyBtn       = document.getElementById('copy-btn');
   const shareBtn      = document.getElementById('share-btn');
 
   /* ── INIT ── */
@@ -456,7 +457,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  downloadBtn.addEventListener('click', async () => {
+
+  downloadBtn?.addEventListener('click', async () => {
     setStatus('SAVING…');
     const { svg, name } = await buildSvg();
     const png = await svgToPng(svg, 1080, 1920);
@@ -468,8 +470,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Make preview image clickable for download too
-  livePreview.style.cursor = 'pointer';
-  livePreview.addEventListener('click', () => downloadBtn.click());
+  if (livePreview) {
+    livePreview.style.cursor = 'pointer';
+    livePreview.addEventListener('click', () => downloadBtn?.click());
+  }
 
   /* ── TOAST NOTIFICATION ── */
   function showToast(msg) {
@@ -485,11 +489,35 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => toast.classList.remove('show'), 4500);
   }
 
+  copyBtn?.addEventListener('click', async () => {
+    setStatus('COPYING…');
+    try {
+      const { svg } = await buildSvg();
+      const pngDataUrl = await svgToPng(svg, 1080, 1920);
+      const res = await fetch(pngDataUrl);
+      const blob = await res.blob();
+
+      if (navigator.clipboard && window.ClipboardItem) {
+        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+        showToast('✓ Boarding pass copied to clipboard!');
+      } else {
+        showToast('Clipboard image copy not supported on this browser.');
+      }
+    } catch (e) {
+      console.error('Copy failed:', e);
+      showToast('Failed to copy image to clipboard.');
+    }
+    setStatus('READY');
+  });
+
   shareBtn.addEventListener('click', async () => {
     setStatus('PREPARING…');
-    const tweetText = `247 seats. 4 days on the Arabian Sea. I have already generated my boarding pass! Hacker House Goa 2026, 28–31 Oct`;
-    const shareUrl = `https://hhg-idcard.vercel.app/`;
-    const hashtags = `#FrameInGoa #HHGoa26 via @247pmstudio`;
+    const fullTweetText = `Just got my boarding pass for the ultimate hacker getaway... ✈️🌴
+
+👉 Want to see what your hacker passenger profile looks like?
+https://hhg-idcard.vercel.app/
+Drop your stack/role below or spin up the generator, and reply with your ticket using #FrameInGoa! Let's see what tags you're running. 💻🔥
+#FrameInGoa #Goa #Hackathon #Hacker #Hackerhouse`;
 
     try {
       const { svg, name } = await buildSvg();
@@ -514,10 +542,10 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('Share prep:', e);
     }
 
-    // 3. Open X Intent directly in browser tab (bypasses Windows share flyout)
-    const intentUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(`${tweetText}\n${hashtags}`)}&url=${encodeURIComponent(shareUrl)}`;
+    // 3. Open X Intent directly in browser tab
+    const intentUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(fullTweetText)}`;
     window.open(intentUrl, '_blank', 'noopener,noreferrer');
-    showToast('✓ PNG downloaded & image copied to clipboard! Attach or paste it on X.');
+    showToast('✓ PNG downloaded & image copied to clipboard! Paste or attach it on X.');
     setStatus('READY');
   });
 
