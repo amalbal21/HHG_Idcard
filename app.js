@@ -389,10 +389,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const roleJoke = ('#' + randomTitle).toUpperCase();
     const mode = document.querySelector('input[name="mode"]:checked');
     const soloTeam = (mode?.value === 'Solo') ? 'SOLO BUILDER' : 'SQUAD GOALS';
-    const jokes = jokesData.two_liners || [];
-    const joke = jokes.length ? jokes[Math.floor(Math.random() * jokes.length)] : null;
+    const allJokes = [
+      ...(jokesData.two_liners || []),
+      ...(jokesData.one_liners || []).map(line => ({ top: line, bottom: '' }))
+    ];
+    const joke = allJokes.length ? allJokes[Math.floor(Math.random() * allJokes.length)] : null;
     const jokeTop = joke?.top ?? '// ready for hacker house goa';
-    const jokeBottom = joke?.bottom ?? 'Thread.sleep(1);';
+    const jokeBottom = joke?.bottom ?? '';
     const photoB64 = getPhotoBase64(name);
 
     if (!ticketSvgTemplate) ticketSvgTemplate = await fetch('ticket.svg').then(r => r.text());

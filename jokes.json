@@ -2,16 +2,20 @@
   "one_liners": [
     "I would tell you a UDP joke, but you might not get it.",
     "[\"hip\",\"hip\"] (hip hip array!)",
-    "return 1; # returns 1"
+    "return 1; // returns 1"
   ],
   "two_liners": [
+    {
+      "top": "What is the difference between C++ and C?",
+      "bottom": "Just 1."
+    },
     {
       "top": "# To understand recursion, see the bottom of this ID.",
       "bottom": "# To understand recursion, see the top of this ID."
     },
     {
       "top": "//be nice to the CPU",
-      "bottom": "Thread_sleep(1);"
+      "bottom": "Thread.sleep(1);"
     },
     {
       "top": "} catch (PartInitException pie) {",
@@ -22,19 +26,19 @@
       "bottom": "// Now, only God knows."
     },
     {
-      "top": "What’s a better name for Frontend Developers?",
+      "top": "What's a better name for Frontend Developers?",
       "bottom": "<div>elopers"
     },
     {
-      "top": "You know what screams “I’m insecure”?",
+      "top": "You know what screams \"I'm insecure\"?",
       "bottom": "http://"
     },
     {
       "top": "Why are i and j good sources of information?",
-      "bottom": "Because they’re always in the loop"
+      "bottom": "Because they're always in the loop"
     },
     {
-      "top": "Why do Java developers wear sun glasses?",
+      "top": "Why do Java developers wear sunglasses?",
       "bottom": "Because they stare straight into the Eclipse!"
     },
     {
